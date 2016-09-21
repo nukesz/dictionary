@@ -1,0 +1,23 @@
+{
+    "dictionaryApp": {
+        "type" : {
+            "home": {
+                "title": "Types",
+                "createLabel": "Egy új Type létrehozása",
+                "createOrEditLabel": "Hozzon létre, vagy módosítson Typet",
+                "search": "Search for Type"
+            },
+            "created": "A new Type is created with identifier {{ param }}",
+            "updated": "A Type is updated with identifier {{ param }}",
+            "deleted": "A Type is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Biztos benne, hogy törölni szeretné az Typet {{ id }} azonosítóval?"
+            },
+            "detail": {
+                "title": "Type"
+            },
+            "name": "Name",
+            "word": "Word"
+        }
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipName": "type",
+            "otherEntityName": "type",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "name"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "swedish",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "hungarian",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "english",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "comment",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20160919164539",
+    "dto": "no",
+    "service": "serviceClass",
+    "entityTableName": "word",
+    "pagination": "infinite-scroll"
+}

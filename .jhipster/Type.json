@@ -1,0 +1,27 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipName": "word",
+            "otherEntityName": "word",
+            "relationshipType": "one-to-many",
+            "otherEntityRelationshipName": "type"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required",
+                "minlength"
+            ],
+            "fieldValidateRulesMinlength": "1"
+        }
+    ],
+    "changelogDate": "20160919170328",
+    "dto": "no",
+    "service": "serviceClass",
+    "entityTableName": "type",
+    "pagination": "infinite-scroll"
+}

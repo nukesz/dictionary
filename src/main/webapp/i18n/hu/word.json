@@ -1,0 +1,26 @@
+{
+    "dictionaryApp": {
+        "word" : {
+            "home": {
+                "title": "Words",
+                "createLabel": "Egy új Word létrehozása",
+                "createOrEditLabel": "Hozzon létre, vagy módosítson Wordt",
+                "search": "Search for Word"
+            },
+            "created": "A new Word is created with identifier {{ param }}",
+            "updated": "A Word is updated with identifier {{ param }}",
+            "deleted": "A Word is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Biztos benne, hogy törölni szeretné az Wordt {{ id }} azonosítóval?"
+            },
+            "detail": {
+                "title": "Word"
+            },
+            "swedish": "Swedish",
+            "hungarian": "Hungarian",
+            "english": "English",
+            "comment": "Comment",
+            "type": "Type"
+        }
+    }
+}

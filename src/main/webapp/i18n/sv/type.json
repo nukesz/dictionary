@@ -1,0 +1,23 @@
+{
+    "dictionaryApp": {
+        "type" : {
+            "home": {
+                "title": "Types",
+                "createLabel": "Skapa en ny Type",
+                "createOrEditLabel": "Skapa eller ändra en Type",
+                "search": "Sök efter Type"
+            },
+            "created": "En ny Type är skapad med id {{ param }}",
+            "updated": "En Type är uppdaterad med id  {{ param }}",
+            "deleted": "En Type är borttagen med id  {{ param }}",
+            "delete": {
+                "question": "Är du säker på att du vill ta bort Type {{ id }}?"
+            },
+            "detail": {
+                "title": "Type"
+            },
+            "name": "Name",
+            "word": "Word"
+        }
+    }
+}

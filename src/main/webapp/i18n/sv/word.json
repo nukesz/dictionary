@@ -1,0 +1,26 @@
+{
+    "dictionaryApp": {
+        "word" : {
+            "home": {
+                "title": "Words",
+                "createLabel": "Skapa en ny Word",
+                "createOrEditLabel": "Skapa eller ändra en Word",
+                "search": "Sök efter Word"
+            },
+            "created": "En ny Word är skapad med id {{ param }}",
+            "updated": "En Word är uppdaterad med id  {{ param }}",
+            "deleted": "En Word är borttagen med id  {{ param }}",
+            "delete": {
+                "question": "Är du säker på att du vill ta bort Word {{ id }}?"
+            },
+            "detail": {
+                "title": "Word"
+            },
+            "swedish": "Swedish",
+            "hungarian": "Hungarian",
+            "english": "English",
+            "comment": "Comment",
+            "type": "Type"
+        }
+    }
+}
